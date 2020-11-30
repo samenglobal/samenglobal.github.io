@@ -1,0 +1,425 @@
+https://fonts.googleapis.com/css?family=Fjalla+One:bold,bolditalic|Inconsolata:italic|Droid+Sans
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+body{
+    background-color: white; 
+    
+}
+
+
+h2{
+    font-size: 200% ;
+    font-weight: 500 ;
+    text-align: center ;
+    padding-top: 2% ;
+    
+}
+
+h1{
+    font size: 70% ;
+    text-align: center;   
+}
+
+h3{
+    font-size: 70% ;
+     
+    font-weight: 10 ;
+    padding: 1% 0 ;   
+}
+
+h7{
+    font-size: 250% ;
+  
+}
+
+ctus{
+    color: white ;
+    background-color: #0075c1 ;
+    padding: 3px 9px 3px 9px ;
+    border-radius: 4px ;
+    
+}
+
+p{
+    font-size: 100% ;
+    line-height: 25pt ;
+    padding: 3% ;
+    text-indent: 2%;
+    text-align: justify;
+    
+    
+}
+
+img {
+    max-width: 100% ;
+    height: auto ;
+    width: auto ;
+    margin-bottom: -4px ;
+    
+}
+
+#imageloc{
+    width:  100% ;
+    height: 70%
+        
+}
+
+header {
+    width: 100% ;
+    height: 30px ;
+    
+}
+
+#header-inner{
+    max-width: 1200px;
+    margin: 0 auto ;
+    
+}
+
+logo {
+    margin: 10px;
+    float: 20% left ;
+    background-color: white;
+    border-style: solid;
+    border-width: 2px ;
+    padding: 5px 15px 5px 15px ;
+    border-color: black ;
+    color: #0075c1 ;
+    position: absolute ;
+    font-stretch: semi-expanded ;
+    font-size: 33px ;
+    left: 8% ;
+    font-weight: 200 ;
+    font-family: Fjalla One ;
+    top: 5% ;  
+}
+
+nav{
+   
+    float: right ;
+    padding: 0px 5px 0 5px ;
+}
+
+#menu-icon{
+    display: hidden ;
+    width: 40px ;
+    height:  40px ;
+    background: url('https://mdbootstrap.com/img/svg/hamburger6.svg?color=#0075c1') center ;
+    cursor: pointer;     
+}
+
+a:hover#menu-icon {
+    border-radius: 4px 4px 0 0;
+}
+
+ul {
+    list-style-type: none ; 
+}
+
+nav ul li {
+    font-size: 1% ;
+    display: inline-block ;
+    float: left ;
+    padding: 7px ;
+    text-decoration: none ;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    background-color: skyblue;
+}
+:visited {
+    color: #0075c1 ;   
+}
+
+.banner{
+    width: 100% ; 
+   
+}
+ 
+.banner-inner{
+    width: 100% ; 
+    margin: 0 auto ;
+   
+}
+
+.one-forth{
+    width: 100% ;
+    
+    text-align: center;
+    font-size: 50% ;
+    padding: 1px ;
+    background-color: beige ;
+    
+    
+}
+
+h4{
+    padding: 5px;
+    
+}
+
+h5{
+    padding: 0px;
+    
+}
+
+.inner-wrapper{
+    float: left ;
+    width: 100% ;
+    
+}
+
+.productslist{
+    float: left;
+    width: 100% ; 
+}
+
+article{
+    float: left;
+    width: 50% ;
+}
+
+aside{
+    float: right ;
+    width: 50% ;
+}
+    
+.inner-wrapper2{
+    float: left ;
+    width: 100% ;
+    background-color: snow;
+    text-align: center;
+}
+
+.inner-wrapper3{
+    float: left ;
+    width: 100% ;
+    text-align: center;
+    
+}  
+.footer-second{
+    padding: 10px 0 2px 0 ;
+}
+
+.contact-form{
+    float: left ;
+    width: 100% ;
+    text-align: center ;
+    background-color: whitesmoke;
+    font-size: 100%;
+}
+#divforname{
+    padding-bottom: 10px;
+    margin-bottom: 10px ;
+} 
+.name-input{
+    padding: 10px 0 10px 0;
+}
+.btn{
+    border-radius: 4px ;
+    border-color: black ;
+    background: #0075c1 ;
+    font-size: 90% ;
+    color: white ;
+    font-weight: bold ;  
+}
+
+input{
+    height: 2.5em ;  
+}
+
+textarea {
+    border-color: gainsboro ;
+}
+
+ul li {
+    display: inline-block;
+    		
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+ul li ul li {
+    float:none;
+    display:inline;
+    position:relative;
+    
+}
+			
+ul li ul {
+	display:none;
+	background-color: snow;
+	text-align: left;
+}
+
+ul li:hover ul{
+	display:block;
+	overflow: hidden;
+	position: absolute;
+	padding: 0;
+    margin: 0;
+    line-height: 0px;
+
+	
+}    
+
+	
+prod_left{
+    float:left ;
+    width: 50% ;
+    padding-left: 75px ;
+}
+
+prod_right{
+    float: right ;
+    width: 50% ;
+    padding-left: 50px ;
+    padding-top: 10px ;
+    
+}
+
+#prodimgleft{
+    
+}
+
+#prodimgrightatta{
+    padding-top: 50px ;
+    height: 250px ;
+}
+
+
+
+
+
+
+	
+
+/*----media----*/
+@media screen and (max-width: 768px) and (max-width: 1800px) {
+    h2{
+        font-size: 50%;
+    }
+    h1{
+        font-size: 50% ;
+        
+    }
+    p{
+        font-size: 90%;
+    }
+    header{
+        position: absolute;
+    }
+    #logo{
+        margin: 15px 0 20px -25px ;
+        
+    }
+    #menu-icon{
+        display: inline-block ;
+        display: visible ;
+        background-image: url(/image/nav.png) center ;
+        
+        
+           
+    }
+ 
+    nav ul, nav:active ul{
+        display: none ; 
+        z-index: 1000;
+        position: absolute;
+        padding: 10px ;
+        background-color: #0075c1 ;
+        color: white ;
+        right: 15px ;
+           
+        top: 2px ;
+        border: 3px solid white ;
+        border-radius: 2px 0 2px 2px ;
+        width: 30% ;
+        background-color: white ;
+        
+ 
+    }
+    nav li {
+        text-align: left;
+        width: 100%;
+        padding: 10px 0;
+        
+    }
+    nav:hover ul{
+        display: block ;
+        
+        }
+    .banner{
+        padding-top: 86px ;    
+        }
+    .one-forth{
+        float:left ;
+        width: 100% ;
+        font-size: 35% ;
+        padding: 4px 0 1px 0;
+        }
+    article{
+        width: 100% ;
+        
+        }
+    aside{
+        width: 100%;
+        }
+    .inner-wrapper2{
+        float: left;
+        width: 100% ;
+        padding: 4px 0 2px 0 ;     
+        }
+    .inner-wrapper3{
+        float: left ;
+        widows: 100% ;
+        padding: 50px 0 1px 0 ;
+    	  }
+    .footer-second{
+        float: left ;
+        width: 100% ;
+        padding: 50px 0 2px 0 ;
+	     }   
+	     
+	  ul li ul:active li{
+        display: none ; 
+        z-index: 1000;
+        position: absolute;
+        padding: 10px ;
+        background-color: #0075c1 ;
+        color: white ;
+        right: 15px ;
+           
+        top: 2px ;
+        border: 3px solid white ;
+        border-radius: 2px 0 2px 2px ;
+        width: 30% ;
+        background-color: white ;
+        
+ 
+    }
+    ul li ul li{
+        text-align: left;
+        width: 100%;
+        padding: 10px 0;
+        
+    }
+    ul li :hover ul{
+        display: block ;
+        
+        }
+	  	
+
+
+	
+    
+}
+    
